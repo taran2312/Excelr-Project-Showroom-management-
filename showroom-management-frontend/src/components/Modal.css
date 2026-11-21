@@ -1,0 +1,13 @@
+.app-modal {
+  background: transparent;
+}
+
+.app-modal .modal-content {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 12px 40px rgba(15, 30, 60, 0.25);
+}
+
+.app-modal .modal-header {
+  border-bottom-color: var(--border-soft);
+}

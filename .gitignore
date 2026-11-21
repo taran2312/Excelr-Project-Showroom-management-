@@ -1,0 +1,16 @@
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
+*.iml
+
+# Local tooling and secrets
+.claude/
+.env
+.env.*
+!.env.example
+
+# Build output
+showroom-management-backend/target/
+showroom-management-frontend/node_modules/
+showroom-management-frontend/dist/

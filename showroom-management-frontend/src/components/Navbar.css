@@ -1,0 +1,26 @@
+.app-navbar {
+  background: linear-gradient(90deg, var(--brand-900), var(--brand-700));
+  box-shadow: 0 2px 8px rgba(15, 30, 60, 0.18);
+}
+
+.app-navbar .nav-link {
+  border-radius: 6px;
+  padding: 0.4rem 0.75rem !important;
+  margin-right: 0.15rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.app-navbar .nav-link:hover {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.app-navbar .nav-link.active {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.18);
+}
+
+.app-navbar .navbar-brand {
+  font-weight: 600;
+  letter-spacing: 0.2px;
+}

@@ -1,0 +1,75 @@
+:root {
+  --brand-900: #14284f;
+  --brand-700: #1f3b73;
+  --brand-500: #2f5aa8;
+  --surface: #f4f6fb;
+  --border-soft: #e6e9f0;
+  --shadow-card: 0 1px 3px rgba(15, 30, 60, 0.08), 0 1px 2px rgba(15, 30, 60, 0.04);
+
+  --bs-primary: #2f5aa8;
+  --bs-primary-rgb: 47, 90, 168;
+  --bs-link-color: #2f5aa8;
+  --bs-link-color-rgb: 47, 90, 168;
+  --bs-body-font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+body {
+  background: var(--surface);
+  color: #1d2433;
+}
+
+.btn-primary {
+  --bs-btn-bg: var(--brand-500);
+  --bs-btn-border-color: var(--brand-500);
+  --bs-btn-hover-bg: var(--brand-700);
+  --bs-btn-hover-border-color: var(--brand-700);
+  --bs-btn-active-bg: var(--brand-900);
+  --bs-btn-active-border-color: var(--brand-900);
+  --bs-btn-disabled-bg: var(--brand-500);
+  --bs-btn-disabled-border-color: var(--brand-500);
+}
+
+.btn-outline-primary {
+  --bs-btn-color: var(--brand-500);
+  --bs-btn-border-color: var(--brand-500);
+  --bs-btn-hover-bg: var(--brand-500);
+  --bs-btn-hover-border-color: var(--brand-500);
+  --bs-btn-active-bg: var(--brand-700);
+  --bs-btn-active-border-color: var(--brand-700);
+}
+
+.content-card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: var(--shadow-card);
+  overflow: hidden;
+}
+
+.content-card .card-header {
+  background: #fff;
+  border-bottom-color: var(--border-soft);
+}
+
+.content-card .table {
+  --bs-table-bg: transparent;
+}
+
+.content-card .table thead th {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #6b7385;
+  background: #fafbfd;
+  border-bottom-color: var(--border-soft);
+  white-space: nowrap;
+}
+
+.content-card .table td,
+.content-card .table th {
+  padding: 0.7rem 0.9rem;
+}
+
+.form-label {
+  font-weight: 500;
+  font-size: 0.9rem;
+}

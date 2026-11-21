@@ -1,0 +1,18 @@
+.showroom-card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: var(--shadow-card);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.showroom-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(15, 30, 60, 0.12);
+}
+
+.showroom-count {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1;
+  color: var(--brand-700);
+}
